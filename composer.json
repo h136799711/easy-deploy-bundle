@@ -1,0 +1,42 @@
+{
+    "name": "easycorp/easy-deploy-bundle",
+    "type": "symfony-bundle",
+    "description": "The easiest way to deploy Symfony applications",
+    "keywords": ["deploy", "deployment", "deployer"],
+    "homepage": "https://github.com/EasyCorp/easy-deploy-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Javier Eguiluz",
+            "email": "javiereguiluz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "symfony/console": "5.4.*",
+        "symfony/dependency-injection": "5.4.*",
+        "symfony/expression-language": "5.4.*",
+        "symfony/filesystem": "5.4.*",
+        "symfony/http-foundation": "5.4.*",
+        "symfony/http-kernel": "5.4.*",
+        "symfony/polyfill-mbstring": "1.25.*",
+        "symfony/process": "5.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": { "EasyCorp\\Bundle\\EasyDeployBundle\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "EasyCorp\\Bundle\\EasyDeployBundle\\Tests\\": "tests/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
