@@ -1,16 +1,11 @@
 {
-    "name": "easycorp/easy-deploy-bundle",
+    "name": "dbh/easy-deploy-bundle",
     "type": "symfony-bundle",
-    "description": "The easiest way to deploy Symfony applications",
+    "description": "clone from EasyCorp/easy-deploy-bundle",
     "keywords": ["deploy", "deployment", "deployer"],
     "homepage": "https://github.com/EasyCorp/easy-deploy-bundle",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Javier Eguiluz",
-            "email": "javiereguiluz@gmail.com"
-        }
-    ],
+    "authors": [],
     "require": {
         "php": ">=7.2.0",
         "symfony/console": "5.4.*",
