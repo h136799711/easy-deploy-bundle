@@ -1,6 +1,6 @@
 
 
-EasyDeployBundle
+EasyDeployBundle*
 ================
 
 **EasyDeployBundle is the easiest way to deploy your Symfony applications.**
