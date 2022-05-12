@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Only for Symfony 5.4, modify from EasyCorp/easy-deploy-bundle",
     "keywords": ["deploy", "deployment", "deployer"],
-    "homepage": "https://github.com/EasyCorp/easy-deploy-bundle",
+    "homepage": "https://github.com/h136799711/easy-deploy-bundle",
     "license": "MIT",
     "authors": [],
     "require": {
