@@ -1,21 +1,21 @@
 {
     "name": "dbh/easy-deploy-bundle",
     "type": "symfony-bundle",
-    "description": "Only for Symfony 5.4, modify from EasyCorp/easy-deploy-bundle",
+    "description": "Symfony 6.1, modify from EasyCorp/easy-deploy-bundle",
     "keywords": ["deploy", "deployment", "deployer"],
     "homepage": "https://github.com/h136799711/easy-deploy-bundle",
     "license": "MIT",
     "authors": [],
     "require": {
-        "php": ">=7.2.0",
-        "symfony/console": "5.4.*",
-        "symfony/dependency-injection": "5.4.*",
-        "symfony/expression-language": "5.4.*",
-        "symfony/filesystem": "5.4.*",
-        "symfony/http-foundation": "5.4.*",
-        "symfony/http-kernel": "5.4.*",
+        "php": ">=8.1",
+        "symfony/console": "6.1.*",
+        "symfony/dependency-injection": "6.1.*",
+        "symfony/expression-language": "6.1.*",
+        "symfony/filesystem": "6.1.*",
+        "symfony/http-foundation": "6.1.*",
+        "symfony/http-kernel": "6.1.*",
         "symfony/polyfill-mbstring": "1.25.*",
-        "symfony/process": "5.4.*"
+        "symfony/process": "6.1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
